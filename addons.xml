@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-        
-<addon id="plugin.program.kodibx" name="kodibx" version="1.1.4" provider-name="kodibx">
-  <requires>
-	<import addon="xbmc.python" version="2.14.0"/>
-	<import addon="script.common.plugin.cache" version="0.9.1"/>
-  <import addon="repository.kodibx" version="0.0.4"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="fr">kodibx</summary>
-    <description lang="fr">wizard kodibx</description>
-    <summary lang="en">kodibx</summary>
-    <description lang="en">Wizard kodibx</description>
-    <platform>all</platform>
-  </extension>
-</addon>        
-  
+               
 <addon id="plugin.program.kodiby" name="kodiby" version="1.0.4" provider-name="kodiby">
   <requires>
 	<import addon="xbmc.python" version="2.14.0"/>
@@ -36,6 +18,24 @@
     <platform>all</platform>
   </extension>
 </addon>  
+
+<addon id="plugin.program.kodibx" name="kodibx" version="1.1.4" provider-name="kodibx">
+  <requires>
+	<import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+  <import addon="repository.kodibx" version="0.0.4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="fr">kodibx</summary>
+    <description lang="fr">wizard kodibx</description>
+    <summary lang="en">kodibx</summary>
+    <description lang="en">Wizard kodibx</description>
+    <platform>all</platform>
+  </extension>
+</addon> 
 
 <addon id="repository.kodibx"
         name="kodibx Repository"
