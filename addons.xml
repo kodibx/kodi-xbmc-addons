@@ -18,8 +18,7 @@
     <platform>all</platform>
   </extension>
 </addon>        
-
-<addons>      
+  
 <addon id="plugin.program.kodiby" name="kodiby" version="1.0.4" provider-name="kodiby">
   <requires>
 	<import addon="xbmc.python" version="2.14.0"/>
