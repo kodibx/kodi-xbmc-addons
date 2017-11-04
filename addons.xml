@@ -36,7 +36,7 @@
 
 <addon id="plugin.video.allocine" 
        name="allocine" 
-       version="2.2.0" 
+       version="2.3.1" 
        provider-name="allocine">
 	
   <extension point="xbmc.python.pluginsource" library="default.py">
