@@ -34,6 +34,25 @@
   </extension>
 </addon> 
 
+<addon id="plugin.video.allocine" 
+       name="allocine" 
+       version="2.2.0" 
+       provider-name="allocine">
+	
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="fr">allocine</summary>
+    <description lang="fr">allocine</description>
+    <summary lang="en">allocine</summary>
+    <description lang="en">allocine</description>
+    <platform>all</platform>
+  </extension>
+</addon> 	
+	
+	
+
 <addon id="repository.kodibx"
         name="kodibx Repository"
         version="0.0.4"
