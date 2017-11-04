@@ -34,22 +34,19 @@
   </extension>
 </addon> 
 
-<addon id="plugin.video.allocine" 
-       name="allocine" 
-       version="2.3.1" 
-       provider-name="allocine">
-	
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="fr">allocine</summary>
-    <description lang="fr">allocine</description>
-    <summary lang="en">allocine</summary>
-    <description lang="en">allocine</description>
-    <platform>all</platform>
-  </extension>
-</addon> 	
+ <addon id="plugin.video.allocine" name="Allociné" version="2.3.1" provider-name="jbinard">
+        <requires>
+
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="allocine.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Plugin vidéo d&apos;émissions, de bandes annonces et d&apos;horaires de cinéma</summary>
+            <description>Plugin vidéo Allociné&#x0A;[B]Contenu:[/B]&#x0A; - [B]Émissions TV[/B] - Retrouver l&apos;intégralité des émissions d&apos;Allociné.&#x0A; - [B]Bandes Annonces[/B] - Bandes annonces des films en salle ou à venir.&#x0A; - [B]Séries[/B] - Bandes annonces et extraits d&apos;épisode de série.&#x0A; - [B]Interviews[/B] - Interviews de star.&#x0A; - [B]Horaires en salles[/B] - Liste des séances de cinéma pour les films en salle.&#x0A;[CR]&#x0A;    </description>
+            <platform>all</platform>
+        </extension>
+    </addon>	
 	
 	
 
